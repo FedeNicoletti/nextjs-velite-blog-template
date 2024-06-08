@@ -49,7 +49,7 @@ export async function generateMetadata({
         },
       ],
     },
-    youtube: {
+    twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
