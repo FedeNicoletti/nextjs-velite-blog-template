@@ -4,7 +4,7 @@ import ButtonCTA from "./ButtonCTA";
 const HeroPage = () => {
   return (
     <>
-      <div className="w-full h-full py-4 bg-[#2f2e2e] flex justify-center items-center flex-col text-center rounded-xl">
+      <div className="w-full h-full py-4 mb-2 bg-[#2f2e2e] flex justify-center items-center flex-col text-center rounded-xl">
         <h1 className="text-2xl w-full">
           <span className="text-base text-white tracking-widest">
             {" "}
@@ -19,14 +19,9 @@ const HeroPage = () => {
         you can use in the long term while progressing your exercises for
         longevity and maintain your aesthetic goals as well!
       </p>
-      <ButtonCTA />
-      <Image
-        className="my-6 rounded-xl"
-        src="/imghero2.jpg"
-        alt="Description of image"
-        width={350}
-        height={300}
-      />
+      <div className="mb-4">
+        <ButtonCTA />
+      </div>
     </>
   );
 };

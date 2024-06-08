@@ -28,8 +28,8 @@ const Coach = () => {
           />
 
           <div className="mt-12"></div>
-          <ul className="flex flex-col justify-center items-center gap-2 font-black">
-            <li className="text-xl text-center">Xander Morejon</li>
+          <ul className="flex flex-col justify-center items-center gap-2 ">
+            <li className="text-xl text-center font-black">Xander Morejon</li>
             <li className="text-sm text-center">
               Athletic Background Calisthenics Kinstretch Certified
             </li>
