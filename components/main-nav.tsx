@@ -9,7 +9,16 @@ export function MainNav() {
   return (
     <nav className="flex items-center space-x-4 mr-2 md:space-x-6">
       <Link href="/" className="flex text-sm items-center space-x-2 md:mr-6">
-        <span className="font-bold">Online Coaching</span>
+        <span className="font-bold">Home</span>
+      </Link>
+      <Link
+        href="/"
+        className={cn(
+          "text-xs font-medium transition-colors hover:text-primary sm:ml-4 min-w-[7.5rem]",
+          pathname === "/" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        Online Coaching
       </Link>
       <Link
         href="/blog"
@@ -20,16 +29,6 @@ export function MainNav() {
       >
         Educational <br />
         Articles
-      </Link>
-      <Link
-        href="/"
-        className={cn(
-          "text-xs font-medium transition-colors hover:text-primary sm:ml-4 min-w-[7.5rem]",
-          pathname === "/" ? "text-foreground" : "text-foreground/60"
-        )}
-      >
-        Training Programs <br />
-        (Under Construction)
       </Link>
       <Link
         href="/#about"
