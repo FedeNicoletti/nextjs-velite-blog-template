@@ -14,7 +14,7 @@ export function MainNav() {
       <Link
         href="/"
         className={cn(
-          "text-xs font-medium transition-colors hover:text-primary sm:ml-4 min-w-[7.5rem]",
+          "text-xs font-medium transition-colors text-center hover:text-primary sm:ml-4",
           pathname === "/" ? "text-foreground" : "text-foreground/60"
         )}
       >
@@ -23,7 +23,7 @@ export function MainNav() {
       <Link
         href="/blog"
         className={cn(
-          "text-xs font-medium transition-colors hover:text-primary",
+          "text-xs font-medium transition-colors text-center hover:text-primary",
           pathname === "/blog" ? "text-foreground" : "text-foreground/60"
         )}
       >
@@ -33,11 +33,11 @@ export function MainNav() {
       <Link
         href="/#about"
         className={cn(
-          "text-xs font-medium transition-colors hover:text-primary ",
+          "text-xs font-medium transition-colors text-center hover:text-primary ",
           pathname === "/#about" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        About
+        About Me
       </Link>
     </nav>
   );
