@@ -1,7 +1,6 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
-import { Icons } from "./icons";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -9,33 +8,34 @@ import { cn } from "@/lib/utils";
 export function MainNav() {
   const pathname = usePathname();
   return (
-    <nav className="flex items-center space-x-4 lg:space-x-6">
-      <Link href="/" className="mr-6 flex items-center space-x-2">
-        <Icons.logo className="h-6 w-6" />
+    <nav className="flex items-center space-x-4 mr-2 md:space-x-6">
+      <Link href="/" className="flex items-center space-x-2 md:mr-6">
         <span className="font-bold">{siteConfig.name}</span>
       </Link>
       <Link
         href="/blog"
         className={cn(
-          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          "text-xs font-medium transition-colors hover:text-primary",
           pathname === "/blog" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Educational Articles
+        Educational <br />
+        Articles
       </Link>
       <Link
-        href="/about"
+        href="/"
         className={cn(
-          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          "text-xs font-medium transition-colors hover:text-primary sm:ml-4 min-w-[7.5rem]",
           pathname === "/" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Training Programs (Under Construction)
+        Training Programs <br />
+        (Under Construction)
       </Link>
       <Link
         href="/#about"
         className={cn(
-          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          "text-xs font-medium transition-colors hover:text-primary ",
           pathname === "/#about" ? "text-foreground" : "text-foreground/60"
         )}
       >
