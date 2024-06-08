@@ -30,7 +30,7 @@ export function MainNav() {
           pathname === "/" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Training Programs (under construction)
+        Training Programs (Under Construction)
       </Link>
       <Link
         href="/about"
