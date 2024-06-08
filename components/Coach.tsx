@@ -9,18 +9,18 @@ const Coach = () => {
         <div className="h-full w-full my-12 rounded-xl text-center flex justify-center items-center flex-col">
           <h2 className="text-xl text-white">MEET YOUR COACH</h2>
         </div>
-        <div className="bg-white py-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
+        <div className="bg-white border-none pb-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
           <Image
             className="rounded-xl"
-            src="/xandertest2.jpeg"
+            src="/xandertest6.png"
             alt="Description of image"
             width={150}
             height={150}
             style={{
-              height: "12rem",
-              width: "10rem",
-              objectPosition: "top -40px right -0px",
+              objectPosition: "center",
               objectFit: "cover",
+              height: "20rem",
+              width: "100%",
             }}
           />
 
