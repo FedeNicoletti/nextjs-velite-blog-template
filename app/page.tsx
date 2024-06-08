@@ -20,7 +20,7 @@ export default function Home() {
           <CTA />
           <Clients />
           <h2 className="text-sm md:text-6xl font-black text-center mb-6">
-            Want to learn something nice? <br /> Read my latest articles.
+            Want to learn something nice? <br /> See my latest articles.
           </h2>
           <ul className="flex flex-col items-center w-[370px] mb-12">
             {latestPosts.map(
