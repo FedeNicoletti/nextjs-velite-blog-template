@@ -15,7 +15,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="flex items-center">
             <Link
-              href={siteConfig.links.github}
+              href={siteConfig.links.instagram}
               target="_blank"
               rel="noreferrer"
             >
@@ -25,8 +25,8 @@ export function SiteHeader() {
                   "w-10 px-0 hidden sm:inline-flex"
                 )}
               >
-                <Icons.gitHub className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
+                <Icons.instagram className="h-4 w-4" />
+                <span className="sr-only">Instagram</span>
               </div>
             </Link>
             <Link
