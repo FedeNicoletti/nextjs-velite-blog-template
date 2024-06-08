@@ -11,11 +11,17 @@ const Coach = () => {
         </div>
         <div className="bg-white py-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
           <Image
-            className="mt-12 rounded-full"
-            src="/imghero2.jpg"
+            src="/xandertest.png"
             alt="Description of image"
             width={150}
             height={150}
+            style={{
+              borderRadius: "50%",
+              height: "10rem",
+              width: "10rem",
+              objectPosition: "top -40px right -0px",
+              objectFit: "cover",
+            }}
           />
           <p className="mt-6 text-center text-3xl ">Xander Morejon</p>
           <ul className="flex flex-col justify-center items-center gap-2">

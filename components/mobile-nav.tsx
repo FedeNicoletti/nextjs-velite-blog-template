@@ -8,6 +8,7 @@ import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/navigation";
 import { Icons } from "./icons";
 import { siteConfig } from "@/config/site";
+import ButtonCTA from "./ButtonCTA";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -39,6 +40,7 @@ export function MobileNav() {
           <MobileLink onOpenChange={setOpen} href="/#about">
             About
           </MobileLink>
+
           <Link
             target="_blank"
             rel="noreferrer"
@@ -53,6 +55,9 @@ export function MobileNav() {
           >
             Youtube
           </Link>
+          <MobileLink onOpenChange={setOpen} href="/" className="mt-[-4]">
+            <ButtonCTA />
+          </MobileLink>
         </div>
       </SheetContent>
     </Sheet>
