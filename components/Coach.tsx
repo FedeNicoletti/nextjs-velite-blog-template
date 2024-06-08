@@ -1,7 +1,10 @@
 import Image from "next/image";
 const Coach = () => {
   return (
-    <div className="bg-blue-400 h-full w-full flex justify-center items-center">
+    <div
+      id="about"
+      className="bg-blue-400 h-full w-full flex justify-center items-center"
+    >
       <div className="w-[370px] mx-auto overflow-x-hidden">
         <div className="h-full w-full my-12 rounded-xl text-center flex justify-center items-center flex-col">
           <h2 className="text-xl text-white">MEET YOUR COACH</h2>
@@ -9,7 +12,7 @@ const Coach = () => {
         <div className="bg-white py-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
           <Image
             className="mt-12 rounded-full"
-            src="/img300.png"
+            src="/imghero2.jpg"
             alt="Description of image"
             width={150}
             height={150}

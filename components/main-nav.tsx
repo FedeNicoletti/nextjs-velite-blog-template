@@ -33,10 +33,10 @@ export function MainNav() {
         Training Programs (Under Construction)
       </Link>
       <Link
-        href="/about"
+        href="/#about"
         className={cn(
           "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
-          pathname === "/about" ? "text-foreground" : "text-foreground/60"
+          pathname === "/#about" ? "text-foreground" : "text-foreground/60"
         )}
       >
         About
