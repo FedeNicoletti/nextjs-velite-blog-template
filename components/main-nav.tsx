@@ -27,6 +27,15 @@ export function MainNav() {
         href="/about"
         className={cn(
           "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          pathname === "/" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        Training Programs (under construction)
+      </Link>
+      <Link
+        href="/about"
+        className={cn(
+          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
           pathname === "/about" ? "text-foreground" : "text-foreground/60"
         )}
       >
