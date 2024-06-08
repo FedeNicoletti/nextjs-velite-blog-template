@@ -21,7 +21,7 @@ export function MainNav() {
           pathname === "/blog" ? "text-foreground" : "text-foreground/60"
         )}
       >
-        Blog
+        Educational Articles
       </Link>
       <Link
         href="/about"

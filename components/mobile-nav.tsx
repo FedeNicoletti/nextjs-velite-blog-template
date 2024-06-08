@@ -31,7 +31,7 @@ export function MobileNav() {
         </MobileLink>
         <div className="flex flex-col gap-3 mt-3">
           <MobileLink onOpenChange={setOpen} href="/blog">
-            Blog
+            Educational Articles
           </MobileLink>
           <MobileLink onOpenChange={setOpen} href="/about">
             About
@@ -46,9 +46,9 @@ export function MobileNav() {
           <Link
             target="_blank"
             rel="noreferrer"
-            href={siteConfig.links.twitter}
+            href={siteConfig.links.youtube}
           >
-            Twitter
+            Youtube
           </Link>
         </div>
       </SheetContent>
