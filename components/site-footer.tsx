@@ -13,7 +13,7 @@ export function SiteFooter() {
             href="mailto:morejonxander@gmail.com"
           >
             <span className="sr-only">Mail</span>
-            <Mail className="h-6 w-6" />
+            <Mail className="h-6 w-6 stroke-1 stroke-black" />
           </a>
           <a target="_blank" rel="noreferrer" href={siteConfig.links.youtube}>
             <span className="sr-only">Youtube</span>
