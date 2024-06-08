@@ -1,6 +1,5 @@
 "use client";
 
-import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
@@ -10,7 +9,7 @@ export function MainNav() {
   return (
     <nav className="flex items-center space-x-4 mr-2 md:space-x-6">
       <Link href="/" className="flex items-center space-x-2 md:mr-6">
-        <span className="font-bold">{siteConfig.name}</span>
+        <span className="font-bold">Home</span>
       </Link>
       <Link
         href="/blog"
