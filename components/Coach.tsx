@@ -9,9 +9,9 @@ const Coach = () => {
         <div className="h-full w-full my-12 rounded-xl text-center flex justify-center items-center flex-col">
           <h2 className="text-xl text-white">MEET YOUR COACH</h2>
         </div>
-        <div className="bg-white border-none pb-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
+        <div className="bg-white border-blue-400 pb-6 w-full rounded-xl flex flex-col justify-center items-center text-center mb-12">
           <Image
-            className="rounded-xl"
+            className="rounded-xl z-80 overflow-visible overflow-x-visible"
             src="/xandertest6.png"
             alt="Description of image"
             width={150}
@@ -21,6 +21,7 @@ const Coach = () => {
               objectFit: "cover",
               height: "20rem",
               width: "100%",
+              borderWidth: "0px",
             }}
           />
 
