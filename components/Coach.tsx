@@ -12,7 +12,7 @@ const Coach = () => {
         <div className="bg-white py-6 w-full rounded-xl flex flex-col justify-center items-center text-center gap-2 mb-12">
           <Image
             className="rounded-xl"
-            src="/xandertest.jpeg"
+            src="/xandertest2.jpeg"
             alt="Description of image"
             width={150}
             height={150}
