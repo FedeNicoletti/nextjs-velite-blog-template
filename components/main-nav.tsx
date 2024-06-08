@@ -8,8 +8,8 @@ export function MainNav() {
   const pathname = usePathname();
   return (
     <nav className="flex items-center space-x-4 mr-2 md:space-x-6">
-      <Link href="/" className="flex items-center space-x-2 md:mr-6">
-        <span className="font-bold">Home</span>
+      <Link href="/" className="flex text-sm items-center space-x-2 md:mr-6">
+        <span className="font-bold">Online Coaching</span>
       </Link>
       <Link
         href="/blog"
