@@ -4,7 +4,6 @@ import { PostItem } from "@/components/post-item";
 import HeroPage from "../components/Hero";
 import WhatInclude from "../components/WhatInclude";
 import CTA from "../components/CTA";
-import Clients from "../components/Clients";
 import Coach from "../components/Coach";
 
 export default function Home() {
@@ -12,13 +11,11 @@ export default function Home() {
   return (
     <>
       <main className="w-full mx-auto overflow-x-hidden flex justify-center items-center flex-col">
-        <div className="w-[370px] mx-auto overflow-x-hidden flex justify-center items-center flex-col">
-          <HeroPage />
-        </div>
+        <HeroPage />
         <div className="w-full flex flex-col items-center">
           <WhatInclude />
           <CTA />
-          <Clients />
+
           <h2 className="text-sm md:text-6xl font-black text-center mb-6">
             Want to learn something nice? <br /> See my latest educational
             articles.

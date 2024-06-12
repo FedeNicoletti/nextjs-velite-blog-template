@@ -10,6 +10,12 @@ const Coach = () => {
           <h2 className="text-3xl text-white font-black tracking-widest">
             MEET YOUR COACH
           </h2>
+          <p className="mt-4 leading-5 max-w-[350px] tracking-tighter text-center text-xs text-[#2f2e2e] ">
+            I educate on how to lose fat without extreme diets or unrealistic
+            workout routines, instead I focus on building on lifestyle habits
+            that you can use in the long term while progressing your exercises
+            for longevity and maintain your aesthetic goals as well!
+          </p>
         </div>
         <div className="bg-white overflow-y-visible border-blue-400 pb-6 w-full rounded-xl flex flex-col justify-center items-center text-center mb-12">
           <Image

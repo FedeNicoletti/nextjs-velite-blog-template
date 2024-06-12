@@ -6,7 +6,13 @@ import Image from "next/image";
 const Clients = () => {
   const [curr, setCurr] = useState(0);
 
-  const images = ["/next.svg", "/imghero2.jpg", "/img300.png"];
+  const images = [
+    "/sliderphoto4.jpeg",
+    "/sliderphoto2.jpeg",
+    "/sliderphoto3.jpeg",
+    "/sliderphoto1.jpeg",
+    "/sliderphoto5.jpeg",
+  ];
 
   const prev = () =>
     setCurr((curr) => (curr === 0 ? images.length - 1 : curr - 1));
